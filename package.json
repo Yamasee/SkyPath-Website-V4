@@ -1,5 +1,5 @@
 {
-  "name": "EleventyOne",
+  "name": "SkyPath Web site",
   "version": "3.0.0",
   "description": "A project bootstrap for Eleventy sites. With pipelines for PostCSS, JavaScript, and serverless functions",
   "author": "Phil Hawksworth",
@@ -10,10 +10,6 @@
     "dev": "cross-env ELEVENTY_ENV=dev eleventy --serve",
     "build": "cross-env ELEVENTY_ENV=prod eleventy",
     "seed": "cross-env ELEVENTY_ENV=seed eleventy"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/philhawksworth/eleventyone"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.10.0",
