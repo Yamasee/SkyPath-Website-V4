@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164638651-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-164638651-1');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <!--icon font css-->
+    <link rel="stylesheet" href="/vendors/themify-icon/themify-icons.css">
+    <link rel="stylesheet" href="/vendors/simple-line-icon/simple-line-icons.css">
+    <link rel="stylesheet" href="/vendors/font-awesome/css/all.css">
+    <link rel="stylesheet" href="/vendors/flaticon/flaticon.css">
+    <link rel="stylesheet" href="/vendors/animation/animate.css">
+    <link rel="stylesheet" href="/vendors/owl-carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/vendors/animation/animate.css">
+    <link rel="stylesheet" href="/vendors/magnify-pop/magnific-popup.css">
+    <link rel="stylesheet" href="/vendors/elagent/style.css">
+    <link rel="stylesheet" href="/vendors/scroll/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/more_styles.css">
+  </head>
+  <body {% if bodyClass %}class="{{ bodyClass }}"{% endif %}>
+
+    <div class="body_wrapper">
+      {% include "header.njk" %}
+      {{ content | safe }}
+      {% include "footer.njk" %}
+    </div>
+
+    {% include "footer_js.njk" %}
+
+  </body>
+</html>
+
+
+

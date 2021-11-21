@@ -1,0 +1,41 @@
+<header class="header_area">
+  <nav class="navbar navbar-expand-lg menu_one">
+    <div class="container">
+      <a class="navbar-brand" href="/"><img src="/img/logo_new.png" alt="logo"></a>
+      <a class="btn_get btn_hover mobile_btn ml-auto" href="/contact">Get Started</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="menu_toggle">
+          <span class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+          <span class="hamburger-cross">
+            <span></span>
+            <span></span>
+          </span>
+        </span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto menu">
+          <li class="nav-item {% if page.url == '/' %} active {% endif %} ">
+            <a class="nav-link" href="/">
+              Home 
+            </a>
+          </li>
+          <!-- <li class="nav-item"> <a title="Pages" class="nav-link" href="/company">Company</a> </li> <li class="nav-item"> <a title="Pages" class="nav-link" href="#">Physics of turbulence</a> </li> <li class="nav-item"> <a title="Pages" class="nav-link" href="#">Technology</a> </li> <li class="nav-item"> <a title="Pages" class="nav-link" href="#">News</a> </li> <li class="nav-item"> <a title="Pages" class="nav-link" href="#">Users Area</a> </li> -->
+          <li class="nav-item {% if page.url == '/about/' %} active {% endif %}">
+            <a title="About Us" class="nav-link" href="/about/">About Us</a>
+          </li>
+          <li class="nav-item {% if page.url == '/contact/' %} active {% endif %}">
+            <a title="Pages" class="nav-link" href="/contact/">Request Demo</a>
+          </li>
+          <li class="nav-item {% if page.url == '/support/' %} active {% endif %}">
+            <a title="Pages" class="nav-link" href="/support/">Support</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
