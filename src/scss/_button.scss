@@ -51,7 +51,7 @@
     border-width: 1px;
     border-style: solid;
     border-radius: 4px;
-    padding: 0px 25px;
+    padding: 10px 5px;
     display: inline-block;
     transition: background 0.2s linear;
     &:hover{
@@ -219,9 +219,9 @@
     box-shadow: 0px 20px 30px 0px rgba(12, 0, 46, 0.1);
     background-color: rgb(64, 105, 235);
     display: inline-block;
-    padding: 14px 40px;
+    padding: 14px 14px;
     color: #fff;
-    border-radius: 45px;
+    border-radius: 15px;
     border: 1px solid rgb(64, 105, 235);
     &:hover{
         color: rgb(64, 105, 235);
